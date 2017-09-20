@@ -43,9 +43,6 @@ void fluctuations() {
   Serial.print("\t\t");
   Serial.println(temperature, 1);
   if (humidity < 40 && temperature < 12) {
-    beeper();
-    beeper();
-    beeper();
     lcd.setCursor(0, 0);
     lcd.print("Land your Plane");
     lcd.setCursor(5, 1);
@@ -136,4 +133,3 @@ void voiceyBT() {
   }
   voice = "";
 }
-
