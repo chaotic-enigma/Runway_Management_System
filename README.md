@@ -3,6 +3,10 @@
 
 This is a prototype of the project which is smart enough to manage the Runway of Aeroplane.
 
+## Block Diagram
+
+![Alt Text](Runway_Management_System/rms/images_work_flow/?raw=true "Optional Title")
+
 ## Components:
 
 Some paramount components we leveraged upon,
@@ -21,8 +25,8 @@ Some paramount components we leveraged upon,
 * Upload the RWS.ino code in the Board.
 * Test its functionality by moving any object (in our case it is a plane) near UltraSonic sensor.
 * Here, the UltraSonic is deployed to measure the distance between plane and the ground, distance numerals are displayed on the screen in rounded figures namely, **50**, **40**, **30**, **20**, **Approaching Minimum** and **Successful**.
-* We will cross the land of the flight by contacting plane via BlueTooth.
-* If it is **Successful**?, a green LED glows. [Actually we are passing on some queries regarding landing of the flight by an Android app called **AMR Voice**.]
+* We will cross-check the land of the flight by contacting plane via BlueTooth.
+* If it is **Successful**?, a green LED glows. (Actually we are passing on some queries regarding landing of the flight by an Android app called **AMR Voice**).
 * Buzzer is beeped if there are any climatic fluctuations during landing and hence it is defered. 
 
 ## Important Validations
