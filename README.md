@@ -5,7 +5,7 @@ This is a prototype of the project which is smart enough to manage the Runway of
 
 ## Block Diagram
 
-[![Alt Text](https://github.com/acesaif/Runway_Management_System/blob/master/rms/images_work_flow/block_diagram_rms.png?raw=true "Optional Title")](# something)
+![Alt Text](https://github.com/acesaif/Runway_Management_System/blob/master/rms/images_work_flow/block_diagram_rms.png?raw=true "Optional Title")
 
 ## Components:
 
