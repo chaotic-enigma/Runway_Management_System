@@ -1,7 +1,7 @@
 
 # Runway Management System
 
-This is a prototype of the project which is smart enough to manage the Runway of Aeroplane.
+This is the mini-project simulating runway system. In real life scenarios, these really play quintessential role during landing and take-off the plane. Leverging upon DHT sensor, Ultrasonic sensor and Bluetooth module, this project got its significant shape and effectiveness. A bijou implementation of IoT.
 
 ## Block Diagram
 
