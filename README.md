@@ -1,9 +1,15 @@
 
 # Runway Management System
 
-This is a prototype of the project which is smart enough to manage the Runway of Aeroplane.
+This is the mini-project simulating runway system. In real life scenarios, these really play quintessential role during landing and take-off the plane. Leverging upon DHT sensor, Ultrasonic sensor and Bluetooth module, this project got its significant shape and effectiveness. A bijou implementation of IoT.
 
-## Components:
+## Block Diagram
+
+<p align="center"> 
+    <img src="https://github.com/acesaif/Runway_Management_System/blob/master/rms/images_work_flow/block_diagram_rms.png">
+</p>
+
+## Components
 
 Some paramount components we leveraged upon,
 
@@ -15,14 +21,14 @@ Some paramount components we leveraged upon,
 * LED Bulb
 * Buzzer
 
-## Procedure:
+## Procedure
 
 * Establish the circuit with above enlisted components.
 * Upload the RWS.ino code in the Board.
 * Test its functionality by moving any object (in our case it is a plane) near UltraSonic sensor.
 * Here, the UltraSonic is deployed to measure the distance between plane and the ground, distance numerals are displayed on the screen in rounded figures namely, **50**, **40**, **30**, **20**, **Approaching Minimum** and **Successful**.
-* We will cross the land of the flight by contacting plane via BlueTooth.
-* If it is **Successful**?, a green LED glows. [Actually we are passing on some queries regarding landing of the flight by an Android app called **AMR Voice**.]
+* We will cross-check the land of the flight by contacting plane via BlueTooth.
+* If it is **Successful**?, a green LED glows. (Actually we are passing on some queries regarding landing of the flight by an Android app called **AMR Voice**).
 * Buzzer is beeped if there are any climatic fluctuations during landing and hence it is defered. 
 
 ## Important Validations
