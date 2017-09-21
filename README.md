@@ -9,7 +9,7 @@ This is the mini-project simulating runway system. In real life scenarios, these
     <img src="https://github.com/acesaif/Runway_Management_System/blob/master/rms/images_work_flow/block_diagram_rms.png">
 </p>
 
-## Components:
+## Components
 
 Some paramount components we leveraged upon,
 
@@ -21,7 +21,7 @@ Some paramount components we leveraged upon,
 * LED Bulb
 * Buzzer
 
-## Procedure:
+## Procedure
 
 * Establish the circuit with above enlisted components.
 * Upload the RWS.ino code in the Board.
